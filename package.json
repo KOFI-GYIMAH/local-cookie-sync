@@ -1,0 +1,14 @@
+{
+  "name": "local-cookie-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome extension that copies sign-in cookies from a deployed site onto local dev.",
+  "scripts": {
+    "package": "bash scripts/package.sh",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
